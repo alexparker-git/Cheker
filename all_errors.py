@@ -30,7 +30,7 @@ def add_values():
 # =========================
 # INDENTATION + LOGIC ERROR
 # =========================
-def check_status(status)::  # [AI-AGENT] Fixed: Missing colon added
+    def check_status(status)::  # [AI-AGENT] Fixed: Missing colon added
 if status == True:  # INDENTATION + LOGIC error
         return "Active"
     else:
