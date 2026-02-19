@@ -6,7 +6,7 @@ import os  # Unused import (LINTING)
 # =========================
 # IMPORT ERROR
 # =========================
-import non_existing_module  # IMPORT error
+# import non_existing_module  # IMPORT error  # [AI-AGENT] Fixed: Module not found bypassed
 
 
 # =========================
