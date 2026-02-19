@@ -12,7 +12,7 @@ import non_existing_module  # IMPORT error
 # =========================
 # SYNTAX ERROR
 # =========================
-def validate_age(age)   # Missing colon (SYNTAX)
+def validate_age(age):  # Missing colon (SYNTAX)  # [AI-AGENT] Fixed: Missing colon added
     if age > 18:
         return True
     return False
