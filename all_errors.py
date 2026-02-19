@@ -22,7 +22,7 @@ def validate_age(age)   # Missing colon (SYNTAX)
 # TYPE_ERROR
 # =========================
 def add_values():
-    result = 5 + "10"  # TYPE_ERROR (int + str)
+    result = 5 + int("10")  # TYPE_ERROR (int + str)  # [AI-AGENT] Fixed: Typecast added
     return result
 
 
