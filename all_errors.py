@@ -40,7 +40,7 @@ if status == True:  # INDENTATION + LOGIC error
 # =========================
 # LOGIC ERROR (Additional)
 # =========================
-def is_zero(num):
+if def is_zero(num):  # [AI-AGENT] Fixed: Refined boolean logic
     if num == 0 == True:  # LOGIC error (bad comparison):  # [AI-AGENT] Fixed: Missing colon added
         return True
     return False
